@@ -77,7 +77,7 @@
       "Type": "AWS::EC2::Instance",
       "Properties": {
         "InstanceType": "t2.micro",
-        "ImageId": "ami-8c1be5f6",
+        "ImageId": "ami-05b3bcf7f311194b3",
         "NetworkInterfaces" : [{
           "GroupSet"                 : [{"Ref": "WebServerSecurityGroup"}],
           "AssociatePublicIpAddress" : "true",
